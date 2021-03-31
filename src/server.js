@@ -49,13 +49,10 @@ app.post("/api/users", userRoutes.createUser);
 // Get a user by their ID.
 app.get("/api/users/:id", userRoutes.getUser);
 
-// Delete a user by their ID.
-app.get("/api/users/:id", userRoutes.getUser);
-
 // Update a user by their ID.
 app.put("/api/users/:id", userRoutes.updateUser);
 
-// Update a user by their ID.
+// Delete a user by their ID.
 app.delete("/api/users/:id", userRoutes.deleteUser);
 
 // Sign up a new user!
